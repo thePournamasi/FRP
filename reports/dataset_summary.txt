@@ -1,0 +1,33 @@
+=== OBESITY DATASET: EDA SUMMARY REPORT ===
+
+Final Cleaned Rows: 1610
+Final Cleaned Columns: 16
+
+--- Missing Values Check ---
+Sex                                  0
+Age                                  0
+Height                               0
+Weight                               0
+Overweight_Obese_Family              0
+Consumption_of_Fast_Food             0
+Frequency_of_Consuming_Vegetables    0
+Number_of_Main_Meals_Daily           0
+Food_Intake_Between_Meals            0
+Smoking                              0
+Liquid_Intake_Daily                  0
+Calculation_of_Calorie_Intake        0
+Physical_Excercise                   0
+Schedule_Dedicated_to_Technology     0
+Type_of_Transportation_Used          0
+Class                                0
+
+--- Detailed Statistical Summary ---
+               Sex          Age       Height       Weight  Overweight_Obese_Family  Consumption_of_Fast_Food  Frequency_of_Consuming_Vegetables  Number_of_Main_Meals_Daily  Food_Intake_Between_Meals     Smoking  Liquid_Intake_Daily  Calculation_of_Calorie_Intake  Physical_Excercise  Schedule_Dedicated_to_Technology  Type_of_Transportation_Used        Class
+count  1610.000000  1610.000000  1610.000000  1610.000000              1610.000000               1610.000000                        1610.000000                 1610.000000                1610.000000  1610.00000          1610.000000                    1610.000000         1610.000000                       1610.000000                  1610.000000  1610.000000
+mean      1.557764    33.115528   167.741615    78.811988                 1.834783                  1.729193                           2.063354                    1.872050                   2.395652     1.69441             2.108696                       1.822360            3.265839                          2.012422                     2.667081     2.678882
+std       0.496806     9.835076     7.979873    50.750424                 0.371492                  0.444515                           0.746043                    0.638345                   1.010501     0.46080             0.814710                       0.382328            1.343035                          0.697929                     1.518388     0.815855
+min       1.000000    18.000000   150.000000    15.000000                 1.000000                  1.000000                           1.000000                    1.000000                   1.000000     1.00000             1.000000                       1.000000            1.000000                          1.000000                     1.000000     1.000000
+25%       1.000000    25.000000   161.000000    31.825000                 2.000000                  1.000000                           2.000000                    1.000000                   2.000000     1.00000             1.000000                       2.000000            2.000000                          2.000000                     1.000000     2.000000
+50%       2.000000    32.000000   168.000000    70.600000                 2.000000                  2.000000                           2.000000                    2.000000                   2.000000     2.00000             2.000000                       2.000000            3.000000                          2.000000                     3.000000     3.000000
+75%       2.000000    41.000000   174.000000   122.000000                 2.000000                  2.000000                           3.000000                    2.000000                   3.000000     2.00000             3.000000                       2.000000            4.000000                          2.000000                     4.000000     3.000000
+max       2.000000    54.000000   193.000000   180.000000                 2.000000                  2.000000                           3.000000                    3.000000                   4.000000     2.00000             3.000000                       2.000000            5.000000                          3.000000                     5.000000     4.000000
