@@ -424,7 +424,9 @@ with tab2:
     camera_image = st.camera_input("Take a photo of your food")
 
     uploaded_file = st.file_uploader(
-        "Or upload / take photo from mobile camera",type=["jpg", "png", "jpeg"]s)
+        "Or upload / take photo from mobile camera",
+        type=["jpg", "png", "jpeg"]
+    )
 
     lookup_mode = st.radio(
         "Food lookup mode",
