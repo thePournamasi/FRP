@@ -418,12 +418,13 @@ with tab1:
 with tab2:
     st.header("Step 2: Scan your meal")
     st.write("Take a photo or upload a picture of your food to estimate its calories.")
-    
-    # Camera input
+
+    st.info("If camera does not open on mobile, use the upload option below.")
+
     camera_image = st.camera_input("Take a photo of your food")
-    
-    # File uploader as alternative
-    uploaded_file = st.file_uploader("Or upload a picture...", type=["jpg", "png", "jpeg"])
+
+    uploaded_file = st.file_uploader(
+        "Or upload / take photo from mobile camera",type=["jpg", "png", "jpeg"]s)
 
     lookup_mode = st.radio(
         "Food lookup mode",
