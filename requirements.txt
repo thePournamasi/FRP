@@ -5,3 +5,5 @@ joblib
 Pillow
 numpy
 pandas
+openpyxl
+matplotlib
